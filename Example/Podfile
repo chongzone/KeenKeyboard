@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KeenKeyboard_Example' do
+  pod 'KeenKeyboard', :path => '../'
+
+  target 'KeenKeyboard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
