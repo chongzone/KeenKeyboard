@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		149F6FB32C930E840F19E7EE45256596 /* Pods-KeenKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0223E7990A316EBDDCB2CBF6A6E1F70 /* Pods-KeenKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E8F2C58C548BBFDEFB5606ED4D416D /* Pods-KeenKeyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA2E0F4AD1BA1151BB3214C8BA3489A /* Pods-KeenKeyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D46C14D1B4E0AE3FF78A73C414E87C3 /* ic_keyboard_safe@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB19D9E51141A88651614DEFD0351D1F /* ic_keyboard_safe@3x.png */; };
+		2D29CA021D7D8B840784315EA91F2CA1 /* Pods-KeenKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F0ECD1EACA896C82CCB008B53C820 /* Pods-KeenKeyboard_Example-dummy.m */; };
+		2F5B90A51D452AE003D4D9C1B927E59B /* KeenKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C6A540D8DF078F4803C941DD89DFF87 /* KeenKeyboard.bundle */; };
+		3EDC02E5668D4175B4C0C4472BADCB9E /* KeenUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4417F8967C670E565882D699357E709 /* KeenUtils.swift */; };
+		42224C3BBC84FD7E2FEA804F7DDBE181 /* ic_keyboard_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D84DCF860466D88023AFCA0BD42F96D9 /* ic_keyboard_delete@2x.png */; };
+		56A0837562A44AFE340B1ECA605FC36A /* KeenAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0B6ACF3DE34E822C42DA88797D7312 /* KeenAccessoryView.swift */; };
+		92DCD8FBF3ED7B96E99378734FA5546B /* Pods-KeenKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A36ED017020857B81B5BF59532FC0B /* Pods-KeenKeyboard_Tests-dummy.m */; };
+		9A6DF7C6627B7834FFD696E1A324CA13 /* KeenKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4667A2E44D324641B6FD9F3612FAAF /* KeenKeyboard.swift */; };
+		A08DDEA839B29D1C81A0C902D45B7456 /* KeenKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A023804F81D0B4F488A84E1A1CE9884 /* KeenKeyboard-dummy.m */; };
+		A278D897883132E6E6253962B8CDC94F /* ic_keyboard_complete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE5CBC390B80BF8A99D6D7F6D53D18 /* ic_keyboard_complete@3x.png */; };
+		B149C738D4189678671844A5AE8B7EAD /* ic_keyboard_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE498A7A3E0FF2BA77695EBB6C80DECE /* ic_keyboard_delete@3x.png */; };
+		B3816BC7DDB1E2A92A0EDCBE7C895816 /* ic_keyboard_safe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48587BBD7E16E7F97894D72B70C84BA8 /* ic_keyboard_safe@2x.png */; };
+		CF6F47B67261E59F14F0E677180A4A19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E078FB5B1272CBCBFC6DC68FFD077CB0 /* KeenKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9689F20E7B869F7C7E791EB6B8B3B609 /* KeenKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAE42D517F2FF95216D904D1C358CDB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F4C9FB8FAE378E45FFBE88E7EBAE2ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F77BCDACF1AE5B5AF2A1A4EDB6FDE0B5 /* ic_keyboard_complete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E8EEA720911222F8607F9AFD92DD4C /* ic_keyboard_complete@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788B9BA2693FF3A477A35C886F8F48A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E89462B5703ACF78FA3FFFE97E6212F;
+			remoteInfo = "KeenKeyboard-KeenKeyboard";
+		};
+		CB0C434D6C63D669E6664C69D7315F8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499F6AA9C66989DFB8A4A77387A34CD9;
+			remoteInfo = KeenKeyboard;
+		};
+		CBFFD11C074B102E24229CC65F680D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1019D608AA114CA6008D3DBA077C0F47;
+			remoteInfo = "Pods-KeenKeyboard_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034968A00F10B3887324885B72BEAA1C /* Pods_KeenKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeenKeyboard_Tests.framework; path = "Pods-KeenKeyboard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A5203643F4D24E5E25B6A7FA90D19F /* KeenKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeenKeyboard-Info.plist"; sourceTree = "<group>"; };
+		08F110FFC0955F0D271B300D0F6F46D0 /* Pods_KeenKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeenKeyboard_Example.framework; path = "Pods-KeenKeyboard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC0659204CDB15940BB5F205F9DC1A4 /* Pods-KeenKeyboard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeenKeyboard_Example-Info.plist"; sourceTree = "<group>"; };
+		1E46DF649B1898F14FE618A1C13D0F7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		297769A4130FE4B91972BE9FA31CCD33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2C6A540D8DF078F4803C941DD89DFF87 /* KeenKeyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = KeenKeyboard.bundle; path = "KeenKeyboard-KeenKeyboard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E8EEA720911222F8607F9AFD92DD4C /* ic_keyboard_complete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_keyboard_complete@2x.png"; path = "KeenKeyboard/Assets/ic_keyboard_complete@2x.png"; sourceTree = "<group>"; };
+		3A023804F81D0B4F488A84E1A1CE9884 /* KeenKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeenKeyboard-dummy.m"; sourceTree = "<group>"; };
+		3FF0C7857CEBAD5235006E03276AAF67 /* KeenKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeenKeyboard.modulemap; sourceTree = "<group>"; };
+		4157C96D01018709B69A4B00B47ED5CB /* Pods-KeenKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		48587BBD7E16E7F97894D72B70C84BA8 /* ic_keyboard_safe@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_keyboard_safe@2x.png"; path = "KeenKeyboard/Assets/ic_keyboard_safe@2x.png"; sourceTree = "<group>"; };
+		5AFF30D3D8A404BFBFB630713D7680AB /* KeenKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeenKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		60C7F10EA2F6D1508A5FF5A2E1567DB2 /* Pods-KeenKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeenKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
+		62709B8F1FBA50C66790D7A2F108B61B /* KeenKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KeenKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73BE5CBC390B80BF8A99D6D7F6D53D18 /* ic_keyboard_complete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_keyboard_complete@3x.png"; path = "KeenKeyboard/Assets/ic_keyboard_complete@3x.png"; sourceTree = "<group>"; };
+		749FB1F887C80C557BCCB9A55DB5BC1B /* Pods-KeenKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeenKeyboard_Example.modulemap"; sourceTree = "<group>"; };
+		8A20135A252F6FE170C13075DF218690 /* Pods-KeenKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AFF46AA1B55D612456627A5B3AB27C9 /* Pods-KeenKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeenKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		949F0ECD1EACA896C82CCB008B53C820 /* Pods-KeenKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
+		9689F20E7B869F7C7E791EB6B8B3B609 /* KeenKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeenKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		9CA2E0F4AD1BA1151BB3214C8BA3489A /* Pods-KeenKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB19D9E51141A88651614DEFD0351D1F /* ic_keyboard_safe@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_keyboard_safe@3x.png"; path = "KeenKeyboard/Assets/ic_keyboard_safe@3x.png"; sourceTree = "<group>"; };
+		AF2493DFD1E48789BF7783D6746D12CA /* KeenKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeenKeyboard.framework; path = KeenKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB0D5865E5DA6EE3A51A91794BD40E9 /* Pods-KeenKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeenKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0223E7990A316EBDDCB2CBF6A6E1F70 /* Pods-KeenKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
+		B4D019E5E36623E09D16DFEC338E9C78 /* Pods-KeenKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeenKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD713B0B837313B256CCA453E4E026E9 /* Pods-KeenKeyboard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeenKeyboard_Tests-Info.plist"; sourceTree = "<group>"; };
+		BE498A7A3E0FF2BA77695EBB6C80DECE /* ic_keyboard_delete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_keyboard_delete@3x.png"; path = "KeenKeyboard/Assets/ic_keyboard_delete@3x.png"; sourceTree = "<group>"; };
+		C257266423B5C3AFD6ACD26F8F0A499D /* ResourceBundle-KeenKeyboard-KeenKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KeenKeyboard-KeenKeyboard-Info.plist"; sourceTree = "<group>"; };
+		C4417F8967C670E565882D699357E709 /* KeenUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeenUtils.swift; path = KeenKeyboard/Classes/KeenUtils.swift; sourceTree = "<group>"; };
+		D1E3D262EC2D3CC68FE30BC027535524 /* Pods-KeenKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D39C6EEA7291EBF46DF7F5E4C248973E /* Pods-KeenKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D757E2FCC627155460FAA148BFAD41EF /* Pods-KeenKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeenKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D84DCF860466D88023AFCA0BD42F96D9 /* ic_keyboard_delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_keyboard_delete@2x.png"; path = "KeenKeyboard/Assets/ic_keyboard_delete@2x.png"; sourceTree = "<group>"; };
+		DC623B3F6BDB5934D44F9256C593B5B2 /* KeenKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeenKeyboard.xcconfig; sourceTree = "<group>"; };
+		E39D7BF2783EA1502E5D1260822D76EF /* Pods-KeenKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeenKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6A36ED017020857B81B5BF59532FC0B /* Pods-KeenKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
+		FB0B6ACF3DE34E822C42DA88797D7312 /* KeenAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeenAccessoryView.swift; path = KeenKeyboard/Classes/KeenAccessoryView.swift; sourceTree = "<group>"; };
+		FB4667A2E44D324641B6FD9F3612FAAF /* KeenKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeenKeyboard.swift; path = KeenKeyboard/Classes/KeenKeyboard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1159262616E332FE67B11F7B24E32BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE42D517F2FF95216D904D1C358CDB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23995C580B05BD5B12DB6EBD91EF9D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C9FB8FAE378E45FFBE88E7EBAE2ACE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1F18E9C61941D4C7A720C427A44109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6F47B67261E59F14F0E677180A4A19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF49EF8D30D76E4AC13864608956E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E3E77BC05AFD9A2B7121D8214681440 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FF0C7857CEBAD5235006E03276AAF67 /* KeenKeyboard.modulemap */,
+				DC623B3F6BDB5934D44F9256C593B5B2 /* KeenKeyboard.xcconfig */,
+				3A023804F81D0B4F488A84E1A1CE9884 /* KeenKeyboard-dummy.m */,
+				03A5203643F4D24E5E25B6A7FA90D19F /* KeenKeyboard-Info.plist */,
+				5AFF30D3D8A404BFBFB630713D7680AB /* KeenKeyboard-prefix.pch */,
+				9689F20E7B869F7C7E791EB6B8B3B609 /* KeenKeyboard-umbrella.h */,
+				C257266423B5C3AFD6ACD26F8F0A499D /* ResourceBundle-KeenKeyboard-KeenKeyboard-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KeenKeyboard";
+			sourceTree = "<group>";
+		};
+		3B7945FEF28796A47FF5A88B0885F633 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				62709B8F1FBA50C66790D7A2F108B61B /* KeenKeyboard.podspec */,
+				1E46DF649B1898F14FE618A1C13D0F7F /* LICENSE */,
+				297769A4130FE4B91972BE9FA31CCD33 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		43F0D1A35FB49235CA53745E4D84E784 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F938396F424E1264DFABAFC20D0576C /* Pods-KeenKeyboard_Example */,
+				471AA345FC1AC9C3E30AFF989D95E7BD /* Pods-KeenKeyboard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		471AA345FC1AC9C3E30AFF989D95E7BD /* Pods-KeenKeyboard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				60C7F10EA2F6D1508A5FF5A2E1567DB2 /* Pods-KeenKeyboard_Tests.modulemap */,
+				E39D7BF2783EA1502E5D1260822D76EF /* Pods-KeenKeyboard_Tests-acknowledgements.markdown */,
+				AFB0D5865E5DA6EE3A51A91794BD40E9 /* Pods-KeenKeyboard_Tests-acknowledgements.plist */,
+				F6A36ED017020857B81B5BF59532FC0B /* Pods-KeenKeyboard_Tests-dummy.m */,
+				BD713B0B837313B256CCA453E4E026E9 /* Pods-KeenKeyboard_Tests-Info.plist */,
+				9CA2E0F4AD1BA1151BB3214C8BA3489A /* Pods-KeenKeyboard_Tests-umbrella.h */,
+				8A20135A252F6FE170C13075DF218690 /* Pods-KeenKeyboard_Tests.debug.xcconfig */,
+				4157C96D01018709B69A4B00B47ED5CB /* Pods-KeenKeyboard_Tests.release.xcconfig */,
+			);
+			name = "Pods-KeenKeyboard_Tests";
+			path = "Target Support Files/Pods-KeenKeyboard_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7F938396F424E1264DFABAFC20D0576C /* Pods-KeenKeyboard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				749FB1F887C80C557BCCB9A55DB5BC1B /* Pods-KeenKeyboard_Example.modulemap */,
+				8AFF46AA1B55D612456627A5B3AB27C9 /* Pods-KeenKeyboard_Example-acknowledgements.markdown */,
+				B4D019E5E36623E09D16DFEC338E9C78 /* Pods-KeenKeyboard_Example-acknowledgements.plist */,
+				949F0ECD1EACA896C82CCB008B53C820 /* Pods-KeenKeyboard_Example-dummy.m */,
+				D757E2FCC627155460FAA148BFAD41EF /* Pods-KeenKeyboard_Example-frameworks.sh */,
+				1AC0659204CDB15940BB5F205F9DC1A4 /* Pods-KeenKeyboard_Example-Info.plist */,
+				B0223E7990A316EBDDCB2CBF6A6E1F70 /* Pods-KeenKeyboard_Example-umbrella.h */,
+				D1E3D262EC2D3CC68FE30BC027535524 /* Pods-KeenKeyboard_Example.debug.xcconfig */,
+				D39C6EEA7291EBF46DF7F5E4C248973E /* Pods-KeenKeyboard_Example.release.xcconfig */,
+			);
+			name = "Pods-KeenKeyboard_Example";
+			path = "Target Support Files/Pods-KeenKeyboard_Example";
+			sourceTree = "<group>";
+		};
+		AFD01E3AE2BB058332D8F95FC9296D58 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAE4FBE304446CC21C2F26049C9842F8 /* KeenKeyboard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BA84BF5FCC41C4E70FBDEF511889ECE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C6A540D8DF078F4803C941DD89DFF87 /* KeenKeyboard.bundle */,
+				AF2493DFD1E48789BF7783D6746D12CA /* KeenKeyboard.framework */,
+				08F110FFC0955F0D271B300D0F6F46D0 /* Pods_KeenKeyboard_Example.framework */,
+				034968A00F10B3887324885B72BEAA1C /* Pods_KeenKeyboard_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF9CAEF5A720E5A80767011B930D3DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34E8EEA720911222F8607F9AFD92DD4C /* ic_keyboard_complete@2x.png */,
+				73BE5CBC390B80BF8A99D6D7F6D53D18 /* ic_keyboard_complete@3x.png */,
+				D84DCF860466D88023AFCA0BD42F96D9 /* ic_keyboard_delete@2x.png */,
+				BE498A7A3E0FF2BA77695EBB6C80DECE /* ic_keyboard_delete@3x.png */,
+				48587BBD7E16E7F97894D72B70C84BA8 /* ic_keyboard_safe@2x.png */,
+				AB19D9E51141A88651614DEFD0351D1F /* ic_keyboard_safe@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AFD01E3AE2BB058332D8F95FC9296D58 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BA84BF5FCC41C4E70FBDEF511889ECE4 /* Products */,
+				43F0D1A35FB49235CA53745E4D84E784 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAE4FBE304446CC21C2F26049C9842F8 /* KeenKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FB0B6ACF3DE34E822C42DA88797D7312 /* KeenAccessoryView.swift */,
+				FB4667A2E44D324641B6FD9F3612FAAF /* KeenKeyboard.swift */,
+				C4417F8967C670E565882D699357E709 /* KeenUtils.swift */,
+				3B7945FEF28796A47FF5A88B0885F633 /* Pod */,
+				CDF9CAEF5A720E5A80767011B930D3DE /* Resources */,
+				1E3E77BC05AFD9A2B7121D8214681440 /* Support Files */,
+			);
+			name = KeenKeyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D1DC2D87F5F36238DD78CFAAD96202F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149F6FB32C930E840F19E7EE45256596 /* Pods-KeenKeyboard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE7C0832D68877E30B4B1DB743BF3B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E078FB5B1272CBCBFC6DC68FFD077CB0 /* KeenKeyboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F2CCABC809AE4BF822622910FD0F5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E8F2C58C548BBFDEFB5606ED4D416D /* Pods-KeenKeyboard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1019D608AA114CA6008D3DBA077C0F47 /* Pods-KeenKeyboard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919CB556F1590D38C0BAA0C08AC5B47A /* Build configuration list for PBXNativeTarget "Pods-KeenKeyboard_Example" */;
+			buildPhases = (
+				0D1DC2D87F5F36238DD78CFAAD96202F /* Headers */,
+				BCE4B8AE68CE1F271A2BB5D521AF1643 /* Sources */,
+				23995C580B05BD5B12DB6EBD91EF9D1E /* Frameworks */,
+				971C56B90F1F5381F3925FDA64DB10C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D3030968583DAFD2035F8B8D704BC1B /* PBXTargetDependency */,
+			);
+			name = "Pods-KeenKeyboard_Example";
+			productName = "Pods-KeenKeyboard_Example";
+			productReference = 08F110FFC0955F0D271B300D0F6F46D0 /* Pods_KeenKeyboard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		499F6AA9C66989DFB8A4A77387A34CD9 /* KeenKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D826C48F521CC3CFEBB34836BADE02E7 /* Build configuration list for PBXNativeTarget "KeenKeyboard" */;
+			buildPhases = (
+				1FE7C0832D68877E30B4B1DB743BF3B5 /* Headers */,
+				626708950B3FBFFC7E0AFCF74BCC0631 /* Sources */,
+				3B1F18E9C61941D4C7A720C427A44109 /* Frameworks */,
+				B23EA5F2FD59D0E94A5B72DBC596A506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D18003FCCC911C9835C55AF5F7E9529 /* PBXTargetDependency */,
+			);
+			name = KeenKeyboard;
+			productName = KeenKeyboard;
+			productReference = AF2493DFD1E48789BF7783D6746D12CA /* KeenKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E89462B5703ACF78FA3FFFE97E6212F /* KeenKeyboard-KeenKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9838169027B52CAAFB2B6D670F900F2 /* Build configuration list for PBXNativeTarget "KeenKeyboard-KeenKeyboard" */;
+			buildPhases = (
+				C0CAD61579780A0C70E56BC6802B8DE6 /* Sources */,
+				5FF49EF8D30D76E4AC13864608956E65 /* Frameworks */,
+				45AAAF93E1AA69FAF3E00511CBB79304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeenKeyboard-KeenKeyboard";
+			productName = "KeenKeyboard-KeenKeyboard";
+			productReference = 2C6A540D8DF078F4803C941DD89DFF87 /* KeenKeyboard.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FFF88011188E04A4A8110B73B050DD6A /* Pods-KeenKeyboard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5677F69C8B6DAB84CEEE17671DE2B6 /* Build configuration list for PBXNativeTarget "Pods-KeenKeyboard_Tests" */;
+			buildPhases = (
+				30F2CCABC809AE4BF822622910FD0F5A /* Headers */,
+				4783EADF11F0081A2E74AC285BEB1326 /* Sources */,
+				1159262616E332FE67B11F7B24E32BB5 /* Frameworks */,
+				FD1DEA0657978C5EAFAF3D1C6E521C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DD986C55B280E7D872AB1829EB8FCDB /* PBXTargetDependency */,
+			);
+			name = "Pods-KeenKeyboard_Tests";
+			productName = "Pods-KeenKeyboard_Tests";
+			productReference = 034968A00F10B3887324885B72BEAA1C /* Pods_KeenKeyboard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BA84BF5FCC41C4E70FBDEF511889ECE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499F6AA9C66989DFB8A4A77387A34CD9 /* KeenKeyboard */,
+				5E89462B5703ACF78FA3FFFE97E6212F /* KeenKeyboard-KeenKeyboard */,
+				1019D608AA114CA6008D3DBA077C0F47 /* Pods-KeenKeyboard_Example */,
+				FFF88011188E04A4A8110B73B050DD6A /* Pods-KeenKeyboard_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45AAAF93E1AA69FAF3E00511CBB79304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77BCDACF1AE5B5AF2A1A4EDB6FDE0B5 /* ic_keyboard_complete@2x.png in Resources */,
+				A278D897883132E6E6253962B8CDC94F /* ic_keyboard_complete@3x.png in Resources */,
+				42224C3BBC84FD7E2FEA804F7DDBE181 /* ic_keyboard_delete@2x.png in Resources */,
+				B149C738D4189678671844A5AE8B7EAD /* ic_keyboard_delete@3x.png in Resources */,
+				B3816BC7DDB1E2A92A0EDCBE7C895816 /* ic_keyboard_safe@2x.png in Resources */,
+				1D46C14D1B4E0AE3FF78A73C414E87C3 /* ic_keyboard_safe@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971C56B90F1F5381F3925FDA64DB10C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23EA5F2FD59D0E94A5B72DBC596A506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5B90A51D452AE003D4D9C1B927E59B /* KeenKeyboard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1DEA0657978C5EAFAF3D1C6E521C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4783EADF11F0081A2E74AC285BEB1326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DCD8FBF3ED7B96E99378734FA5546B /* Pods-KeenKeyboard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626708950B3FBFFC7E0AFCF74BCC0631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A0837562A44AFE340B1ECA605FC36A /* KeenAccessoryView.swift in Sources */,
+				9A6DF7C6627B7834FFD696E1A324CA13 /* KeenKeyboard.swift in Sources */,
+				A08DDEA839B29D1C81A0C902D45B7456 /* KeenKeyboard-dummy.m in Sources */,
+				3EDC02E5668D4175B4C0C4472BADCB9E /* KeenUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE4B8AE68CE1F271A2BB5D521AF1643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D29CA021D7D8B840784315EA91F2CA1 /* Pods-KeenKeyboard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CAD61579780A0C70E56BC6802B8DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D18003FCCC911C9835C55AF5F7E9529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "KeenKeyboard-KeenKeyboard";
+			target = 5E89462B5703ACF78FA3FFFE97E6212F /* KeenKeyboard-KeenKeyboard */;
+			targetProxy = 788B9BA2693FF3A477A35C886F8F48A5 /* PBXContainerItemProxy */;
+		};
+		7D3030968583DAFD2035F8B8D704BC1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeenKeyboard;
+			target = 499F6AA9C66989DFB8A4A77387A34CD9 /* KeenKeyboard */;
+			targetProxy = CB0C434D6C63D669E6664C69D7315F8E /* PBXContainerItemProxy */;
+		};
+		9DD986C55B280E7D872AB1829EB8FCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeenKeyboard_Example";
+			target = 1019D608AA114CA6008D3DBA077C0F47 /* Pods-KeenKeyboard_Example */;
+			targetProxy = CBFFD11C074B102E24229CC65F680D23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		178C0D2C6B55C9F18F0C410C31595AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC623B3F6BDB5934D44F9256C593B5B2 /* KeenKeyboard.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KeenKeyboard";
+				INFOPLIST_FILE = "Target Support Files/KeenKeyboard/ResourceBundle-KeenKeyboard-KeenKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = KeenKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		33F39495588B876836C1C665BEC15DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E3D262EC2D3CC68FE30BC027535524 /* Pods-KeenKeyboard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeenKeyboard_Example/Pods-KeenKeyboard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeenKeyboard_Example/Pods-KeenKeyboard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3818EC1FCB8F8E6197BF2A1FEC9F6D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4157C96D01018709B69A4B00B47ED5CB /* Pods-KeenKeyboard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeenKeyboard_Tests/Pods-KeenKeyboard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeenKeyboard_Tests/Pods-KeenKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67AF8CD440E50C7F30ACED4DE5113016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC623B3F6BDB5934D44F9256C593B5B2 /* KeenKeyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeenKeyboard/KeenKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeenKeyboard/KeenKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeenKeyboard/KeenKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = KeenKeyboard;
+				PRODUCT_NAME = KeenKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74CC405DAB340211A830A0C634C5B927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC623B3F6BDB5934D44F9256C593B5B2 /* KeenKeyboard.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KeenKeyboard";
+				INFOPLIST_FILE = "Target Support Files/KeenKeyboard/ResourceBundle-KeenKeyboard-KeenKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = KeenKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A22FFF2B49343A3315308196272C6A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A20135A252F6FE170C13075DF218690 /* Pods-KeenKeyboard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeenKeyboard_Tests/Pods-KeenKeyboard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeenKeyboard_Tests/Pods-KeenKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DF2C3103FF620E371CD67AC543BAED4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC623B3F6BDB5934D44F9256C593B5B2 /* KeenKeyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeenKeyboard/KeenKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeenKeyboard/KeenKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeenKeyboard/KeenKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = KeenKeyboard;
+				PRODUCT_NAME = KeenKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E878D275D55E37DCE5EBFB77542A3EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39C6EEA7291EBF46DF7F5E4C248973E /* Pods-KeenKeyboard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeenKeyboard_Example/Pods-KeenKeyboard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeenKeyboard_Example/Pods-KeenKeyboard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
+				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919CB556F1590D38C0BAA0C08AC5B47A /* Build configuration list for PBXNativeTarget "Pods-KeenKeyboard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F39495588B876836C1C665BEC15DC3 /* Debug */,
+				E878D275D55E37DCE5EBFB77542A3EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5677F69C8B6DAB84CEEE17671DE2B6 /* Build configuration list for PBXNativeTarget "Pods-KeenKeyboard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22FFF2B49343A3315308196272C6A1A /* Debug */,
+				3818EC1FCB8F8E6197BF2A1FEC9F6D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D826C48F521CC3CFEBB34836BADE02E7 /* Build configuration list for PBXNativeTarget "KeenKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AF8CD440E50C7F30ACED4DE5113016 /* Debug */,
+				DF2C3103FF620E371CD67AC543BAED4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9838169027B52CAAFB2B6D670F900F2 /* Build configuration list for PBXNativeTarget "KeenKeyboard-KeenKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CC405DAB340211A830A0C634C5B927 /* Debug */,
+				178C0D2C6B55C9F18F0C410C31595AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

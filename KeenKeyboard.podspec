@@ -1,42 +1,20 @@
-#
-# Be sure to run `pod lib lint KeenKeyboard.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
-  s.name             = 'KeenKeyboard'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KeenKeyboard.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/chongzone/KeenKeyboard'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'chongzone' => 'wangchong.sp@fosun.com' }
-  s.source           = { :git => 'https://github.com/chongzone/KeenKeyboard.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'KeenKeyboard/Classes/**/*'
+  s.name          = 'KeenKeyboard'
+  s.version       = '1.0.0'
+  s.summary       = '自定义安全键盘, 一行代码即可接入, 对业务无侵入, 支持数字、金额、身份证等常见样式'
+  s.homepage      = 'https://github.com/chongzone/KeenKeyboard'
+  s.license       = { :type => 'MIT', :file => 'LICENSE' }
+  s.author        = { 'chongzone' => 'chongzone@163.com' }
   
-  # s.resource_bundles = {
-  #   'KeenKeyboard' => ['KeenKeyboard/Assets/*.png']
-  # }
+  s.requires_arc  = true
+  s.swift_version = '5.0'
+  s.ios.deployment_target = '9.0'
+  s.source = { :git => 'https://github.com/chongzone/KeenKeyboard.git', :tag => s.version }
+  
+  s.source_files = 'KeenKeyboard/Classes/**/*'
+  s.resource_bundles = {
+    'KeenKeyboard' => ['KeenKeyboard/Assets/*.png']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

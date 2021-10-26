@@ -1,0 +1,16 @@
+PODS:
+  - KeenKeyboard (1.0.0)
+
+DEPENDENCIES:
+  - KeenKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  KeenKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KeenKeyboard: 8626ab3d73f29861f1cc7b3e52ac5ee60813462a
+
+PODFILE CHECKSUM: d2ae58b3df08867dcd105937bf8efe734879e331
+
+COCOAPODS: 1.7.0

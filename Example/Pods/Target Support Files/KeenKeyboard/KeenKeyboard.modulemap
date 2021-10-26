@@ -1,0 +1,6 @@
+framework module KeenKeyboard {
+  umbrella header "KeenKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
